@@ -23,7 +23,7 @@ jobs:
           node-version: ${{ inputs.node-version }}
 
       - name: Run composite action
-        uses: Hitham07/reusable-workflows/run-tests@main
+        uses: Hitham07/reusable-workflows/.github/actions/run-tests@main
 
   build:
     name: Build Project
