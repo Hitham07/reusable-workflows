@@ -1,0 +1,14 @@
+# .github/actions/run-tests/action.yml
+
+name: Run Tests
+description: A composite action to install dependencies and run tests
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      run: echo "Install dependencies"
+      shell: bash
+
+    - name: Run tests
+      run: echo "Run tests"
+      shell: bash
